@@ -1,12 +1,11 @@
 /* header */
 .conteiner1{
     display: flex;
-    flex-direction: row;
     min-width: 100px;
-    min-height: 100px;
+    min-height: 80px;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     justify-content: center;
     /* debug */
     background-color: rgb(4, 246, 250);
@@ -17,11 +16,13 @@
     /* debug */
         background-color: yellow;
         border: dashed black 1px;
-    min-width: 10%;
     justify-content: left;
-    
+    display: flex;
+    align-items: center;
+    min-width: 10%;
 
 }
+
 .link{
    /* debug */
         background-color: yellow;
@@ -31,12 +32,21 @@
     justify-content: center;
     
 }
+
+p{
+    margin: 3px;
+}
+
 .logo2{
     /* debug */
         background-color: yellow;
         border: dashed black 1px;
-    min-width: 10%;
     justify-content: right;
+    display: flex;
+    align-items: center;
+    min-width: 10%;
+    
+
 }
 
 /* main */
@@ -57,7 +67,7 @@
         background-color: rgb(217, 0, 255);
         border: dashed black 1px;
     width: 50%;
-    height: 200px;
+    height: 400px;
     display: flex;
     justify-content: center;
 }
@@ -77,7 +87,7 @@
         background-color: rgb(0, 195, 255);
         border: dashed black 1px;
     min-width: 40%;
-    height: 300px;
+    height: 500px;
     display: flex;
     justify-content: center;
 }
@@ -86,7 +96,7 @@
         background-color: rgb(246, 136, 248);
         border: dashed black 1px;
     min-width: 15%;
-    height: 300px;
+    height: 500px;
     display: flex;
     justify-content: center;
 }
@@ -106,8 +116,66 @@
     /* debug */
         background-color: rgb(5, 133, 32);
         border: dashed black 1px;
-    width: 50%;
-    height: 400px;
+    width: 55%;
+    height: 500px;
     display: flex;
     justify-content: center;
+}
+.conteiner5{
+    display: flex;
+    flex-direction: row;
+    min-width: 100px;
+    min-height: 100px;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+    justify-content: center;
+       /* debug */
+       background-color: rgb(31, 31, 31);
+}
+.box5{
+    /* debug */
+        background-color: rgb(0, 195, 255);
+        border: dashed black 1px;
+    min-width: 10%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.conteiner6{
+    display: flex;
+    flex-direction: row;
+    min-width: 100px;
+    min-height: 100px;
+    align-items:flex-end;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content:center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    /* debug */
+    background-color: rgb(31, 31, 31);
+    
+}
+.box6{
+    /* debug */
+        background-color: rgb(0, 195, 255);
+        border: dashed black 1px;
+    min-width: 55%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo3{
+    /* debug */
+        background-color: rgb(246, 136, 248);
+        border: dashed black 1px;
+    min-width: 5%;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
 }
