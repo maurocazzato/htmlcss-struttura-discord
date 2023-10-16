@@ -27,7 +27,7 @@
    /* debug */
         background-color: yellow;
         border: dashed black 1px;
-    min-width: 30%;
+    min-width: 20%;
     display: flex;
     justify-content: center;
     
