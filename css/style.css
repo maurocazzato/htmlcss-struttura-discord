@@ -22,6 +22,9 @@
     min-width: 10%;
 
 }
+.logo-destro{
+    justify-content: right;
+}
 
 .link{
    /* debug */
@@ -37,11 +40,9 @@ p{
     margin: 3px;
 }
 
-.logo-destro{
-    justify-content: right;
-}
 
 /* main */
+/* container */
 
 .conteiner2{
     display: flex;
@@ -53,64 +54,17 @@ p{
        /* debug */
        background-color: rgb(4, 16, 250);
 }
-.box1{
-    /* debug */
-        background-color: rgb(217, 0, 255);
-        border: dashed black 1px;
-    width: 50%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-}
 .bianco{
-       /* debug */
-       background-color: rgb(249, 249, 249);
-}
-
-.box2{
     /* debug */
-        background-color: rgb(0, 195, 255);
-        border: dashed black 1px;
-    min-width: 40%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-}
-.box3{
-    /* debug */
-        background-color: rgb(246, 136, 248);
-        border: dashed black 1px;
-    min-width: 15%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
+    background-color: rgb(249, 249, 249);
 }
 .grigio{
-       /* debug */
-       background-color: rgb(150, 150, 150);
-}
-
-.box4{
     /* debug */
-        background-color: rgb(5, 133, 32);
-        border: dashed black 1px;
-    width: 55%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
+    background-color: rgb(150, 150, 150);
 }
 .scuro{
-       /* debug */
-       background-color: rgb(31, 31, 31);
-}
-.box5{
     /* debug */
-        background-color: rgb(0, 195, 255);
-        border: dashed black 1px;
-    min-width: 10%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
+    background-color: rgb(31, 31, 31);
 }
 .conteiner3{
     display: flex;
@@ -126,6 +80,55 @@ p{
     background-color: rgb(31, 31, 31);
     
 }
+
+.box1{
+    /* debug */
+        background-color: rgb(217, 0, 255);
+        border: dashed black 1px;
+    width: 50%;
+    height: 400px;
+    justify-content: center;
+}
+
+
+.box2{
+    /* debug */
+        background-color: rgb(0, 195, 255);
+        border: dashed black 1px;
+    min-width: 40%;
+    height: 500px;
+    justify-content: center;
+}
+.box3{
+    /* debug */
+        background-color: rgb(246, 136, 248);
+        border: dashed black 1px;
+    min-width: 15%;
+    height: 500px;
+    justify-content: center;
+}
+
+
+.box4{
+    /* debug */
+        background-color: rgb(5, 133, 32);
+        border: dashed black 1px;
+    width: 55%;
+    height: 500px;
+    justify-content: center;
+}
+
+.box5{
+    /* debug */
+        background-color: rgb(0, 195, 255);
+        border: dashed black 1px;
+    min-width: 10%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
 .box6{
     /* debug */
         background-color: rgb(0, 195, 255);
@@ -145,6 +148,5 @@ p{
     height: 20px;
     justify-content: center;
     align-items: center;
-    display: flex;
     
 }
